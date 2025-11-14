@@ -1,1 +1,195 @@
-Hello everyone
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priyadharshini Rajendran - Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #4b79a1, #283e51);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 2.2rem;
+      border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+      display: inline-block;
+      padding-bottom: 8px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 20px;
+      border-radius: 16px;
+      backdrop-filter: blur(7px);
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      background: rgba(255, 255, 255, 0.25);
+      transform: translateY(-6px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+      background: rgba(0,0,0,0.25);
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Priyadharshini Rajendran</h1>
+    <p>Web Developer | Python Learner | IT Student</p>
+    <p>Coimbatore, Tamil Nadu, India</p>
+    <p>Email: priyadharshini2594@gmail.com | Phone: +91-6381340121</p>
+    <p>LinkedIn: linkedin.com/in/priyadharshini-rajendran-b5b688340</p>
+    <p>GitHub: github.com/Priyadharshini-2104</p>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="section">
+    <h2>About Me</h2>
+    <p>
+      Aspiring Software Developer passionate about innovation, technology, and application development.
+      Focused on full-stack development, API design, and creating cutting-edge applications with a long-term goal 
+      of becoming a skilled Python Developer. Eager to apply my knowledge in real-world projects, contribute to impactful 
+      advancements, and grow in an environment that nurtures creativity, continuous learning, and problem-solving.
+    </p>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech (Information Technology)</strong>, Coimbatore Institute of Engineering and Technology (2025–Present)<br>
+      CGPA: 9.57 (current)</li>
+
+      <li><strong>Higher Secondary (HSC)</strong>, Annai Matric Higher Secondary School (2023)<br>
+      Secured 89%</li>
+
+      <li><strong>SSLC</strong>, Annai Matric Higher Secondary School (2021)</li>
+    </ul>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Programming:</strong> Python, Java, JavaScript, C</li>
+      <li><strong>Web Development:</strong> HTML, CSS, React.js, Node.js</li>
+      <li><strong>Database:</strong> MySQL</li>
+      <li><strong>Tools & Frameworks:</strong> Git, GitHub, Spring Boot, Visual Studio Code</li>
+      <li><strong>Concepts:</strong> OOP, Data Structures & Algorithms, SDLC</li>
+      <li><strong>APIs:</strong> RESTful API Development</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section">
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+      <!-- NEW PROJECT 1 -->
+      <div class="card">
+        <h3>Gesture Volume Control</h3>
+        <p>
+          A computer vision-based project allowing users to control system volume using hand gestures.
+          Implemented using OpenCV, MediaPipe, and Python with real-time recognition.
+        </p>
+      </div>
+
+      <!-- NEW PROJECT 2 -->
+      <div class="card">
+        <h3>Library Management System</h3>
+        <p>
+          A complete system to manage books, students, and issue/return operations. Built with structured modules, 
+          clean UI, and database integration for reliable record management.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Quiz Application</h3>
+        <p>
+          Built a web-based quiz platform with multiple levels (Easy, Medium, Hard). Included scoring system and user-friendly UI.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Weather Application</h3>
+        <p>
+          Developed a weather forecast app that displays real-time temperature, humidity, and conditions using an external API.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>E-Commerce Frontend</h3>
+        <p>
+          Designed a product listing page with filtering, sorting, search, and cart management. Used responsive grid layouts.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section">
+    <h2>Achievements & Certifications</h2>
+    <ul>
+      <li>Completed multiple technology courses from Infosys Springboard.</li>
+      <li>Earned certifications from LinkedIn Learning in Full-Stack Development, Python, and Emerging Technologies.</li>
+      <li>Actively participated in Hackathons and Technical Contests.</li>
+      <li>Recognized for continuous learning and self-initiated skill development across platforms.</li>
+    </ul>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 Priyadharshini Rajendran. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
